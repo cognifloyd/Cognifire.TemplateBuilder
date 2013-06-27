@@ -14,13 +14,13 @@ namespace Cognifire\TemplateBuilder\Blob;
 
 
 use TYPO3\Flow\Annotations as Flow;
-use Cognifire\BuilderFoundation\Blob\AbstractBlobFactory;
+use Cognifire\BuilderFoundation\Blob\AbstractBlob;
 
 /**
  * This should manipulate fluid files by using the fluid parser to modify the abstract syntax tree.
  *
  * @Flow/Scope("Singleton")
  */
-class FluidBlobFactory extends AbstractBlobFactory {
+class FluidBlob extends AbstractBlob {
 
 }
