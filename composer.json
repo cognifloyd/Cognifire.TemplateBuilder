@@ -3,8 +3,15 @@
     "type": "typo3-flow-package",
     "description": null,
     "version": null,
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/cognifloyd/Cognifire.BuilderFoundation.git"
+        }
+    ],
     "require": {
-        "typo3/flow": "*"
+        "typo3/flow": "*",
+        "cognifire/builder-foundation": "*"
     },
     "autoload": {
         "psr-0": {
