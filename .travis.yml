@@ -43,7 +43,7 @@ before_script:
   - cd ..
   - git clone git://github.com/typo3-ci/TYPO3-Travis-Integration.git build-environment
   - source build-environment/install-helper.sh
-  - mkdir Flow && curl -Lk https://gist.github.com/cognifloyd/e31febd08511bcbcce52/raw/42c670c5cf5b5baf133dcbe44954fcfec2ac4de6/composer.json > Flow/composer.json
+  - mkdir Flow && curl -Lk https://gist.github.com/cognifloyd/c3476b18ded85f253420/raw/fa79f8f815387b5c3e441468b0364812cbe3813a/composer.json > Flow/composer.json
   # Symlink the package to the folder that its gonna go
   # [Replace Package key here]
   - mkdir -p Flow/Packages/Application && cd Flow/Packages/Application && ln -s ../../../Cognifire.TemplateBuilder && cd ../../
