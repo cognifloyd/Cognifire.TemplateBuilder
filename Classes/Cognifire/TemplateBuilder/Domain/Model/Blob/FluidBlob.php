@@ -18,8 +18,6 @@ use Cognifire\BuilderFoundation\Domain\Model\Blob\AbstractBlob;
 
 /**
  * This should manipulate fluid files by using the fluid parser to modify the abstract syntax tree.
- *
- * @Flow/Scope("Singleton")
  */
 class FluidBlob extends AbstractBlob {
 
