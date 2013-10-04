@@ -5,7 +5,7 @@
     "version": null,
     "require": {
         "typo3/flow": "*",
-        "cognifire/builder-foundation": "proof-of-concept"
+        "cognifire/filefish": "dev-master"
     },
     "autoload": {
         "psr-0": {
